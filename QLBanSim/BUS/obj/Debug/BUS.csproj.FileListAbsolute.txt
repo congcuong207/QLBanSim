@@ -1,0 +1,33 @@
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\bin\Debug\BUS.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\bin\Debug\BUS.pdb
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\bin\Debug\DAL.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\bin\Debug\DTO.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\bin\Debug\EntityFramework.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\bin\Debug\DAL.pdb
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\bin\Debug\DAL.dll.config
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\bin\Debug\DTO.pdb
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\bin\Debug\DTO.dll.config
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\bin\Debug\EntityFramework.xml
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\obj\Debug\BUS.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\BUS\obj\Debug\BUS.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\BUS.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\BUS.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\DAL.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\DTO.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\EntityFramework.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\DAL.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\DAL.dll.config
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\DTO.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\DTO.dll.config
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\EntityFramework.xml
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\obj\Debug\BUS.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\obj\Debug\BUS.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\BUS.dll.config
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\BUS\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,45 @@
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\QLBanSim.exe.config
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\QLBanSim.exe
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\QLBanSim.pdb
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\obj\Debug\QLBanSim.Properties.Resources.resources
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\obj\Debug\QLBanSim.exe
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\obj\Debug\QLBanSim.pdb
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\obj\Debug\QLBanSim.form_DangNhap.resources
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\BUS.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\DTO.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\DAL.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\EntityFramework.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\BUS.pdb
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\DTO.pdb
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\DTO.dll.config
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\DAL.pdb
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\DAL.dll.config
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\bin\Debug\EntityFramework.xml
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\obj\Debug\QLBanSim.Form_TrangChu.resources
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\QLBanSim\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\QLBanSim.exe.config
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\QLBanSim.exe
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\QLBanSim.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\BUS.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\DAL.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\DTO.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\BUS.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\DAL.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\DAL.dll.config
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\DTO.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\DTO.dll.config
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\obj\Debug\QLBanSim.form_DangNhap.resources
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\obj\Debug\QLBanSim.Form_TrangChu.resources
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\obj\Debug\QLBanSim.Properties.Resources.resources
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\obj\Debug\QLBanSim.exe
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\obj\Debug\QLBanSim.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\bin\Debug\BUS.dll.config
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\QLBanSim\obj\Debug\QLBanSim.Form_ChiTietHoaDon.resources

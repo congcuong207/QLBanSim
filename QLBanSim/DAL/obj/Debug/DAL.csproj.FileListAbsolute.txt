@@ -1,0 +1,30 @@
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\bin\Debug\DAL.dll.config
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\bin\Debug\DAL.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\bin\Debug\DAL.pdb
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\bin\Debug\DTO.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\bin\Debug\EntityFramework.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\bin\Debug\DTO.pdb
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\bin\Debug\DTO.dll.config
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\bin\Debug\EntityFramework.xml
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\obj\Debug\DAL.dll
+D:\Lớp 125201\Năm 2 (21-22)\Môn Học\Kỳ 2\LTNC C#\BTL\QLBanSim\DAL\obj\Debug\DAL.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\bin\Debug\DAL.dll.config
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\bin\Debug\DAL.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\bin\Debug\DAL.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\bin\Debug\DTO.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\bin\Debug\EntityFramework.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\bin\Debug\DTO.pdb
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\bin\Debug\DTO.dll.config
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\bin\Debug\EntityFramework.xml
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\obj\Debug\DAL.dll
+C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DAL\obj\Debug\DAL.pdb
