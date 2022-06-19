@@ -309,7 +309,6 @@ namespace QLBanSim
             foreach (DataGridViewRow row in dgv_khanghang.SelectedRows)
             {
                 frmkh_makh.Text = row.Cells[0].Value.ToString();
-                frmkh_masim.Text = row.Cells[1].Value.ToString();
                 frmkh_tenkh.Text = row.Cells[2].Value.ToString();
                 frmkh_diachi.Text = row.Cells[3].Value.ToString();
                 frmkh_sdt.Text = row.Cells[4].Value.ToString();
@@ -325,7 +324,6 @@ namespace QLBanSim
         {
             string makh = frmkh_makh.Text.Trim();
             string hoten = frmkh_tenkh.Text.Trim();
-            string masim = frmkh_masim.Text.Trim();
             string diachi = frmkh_diachi.Text.Trim();
             string sdt = frmkh_sdt.Text.Trim();
 
@@ -333,7 +331,6 @@ namespace QLBanSim
             {
                 MAKH = makh,
                 TENKH = hoten,
-                MASIM = masim,
                 DIACHI = diachi,
                 SDT = sdt,
             };
@@ -394,7 +391,6 @@ namespace QLBanSim
             {
                 string makh = frmkh_makh.Text.Trim();
                 string hoten = frmkh_tenkh.Text.Trim();
-                string masim = frmkh_masim.Text.Trim();
                 string diachi = frmkh_diachi.Text.Trim();
                 string sdt = frmkh_sdt.Text.Trim();
 
@@ -402,7 +398,6 @@ namespace QLBanSim
                 {
                     MAKH = makh,
                     TENKH = hoten,
-                    MASIM = masim,
                     DIACHI = diachi,
                     SDT = sdt,
                 };

@@ -16,8 +16,6 @@ namespace DTO
 
         public string MAKH { get; set; }
 
-        public string MASIM { get; set; }
-
 
         public string TENKH { get; set; }
 

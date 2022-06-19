@@ -14,13 +14,13 @@ namespace DAL
         public int Them(KHACHHANG kh)
         {
             string query =
-                $"INSERT INTO KHACHHANG( MAKH, MASIM, TENKH,DIACHI,SDT)VALUES('{kh.MAKH}','{kh.MASIM}', N'{kh.TENKH}', N'{kh.DIACHI}','{kh.SDT}')";
+                $"INSERT INTO KHACHHANG( MAKH,  TENKH,DIACHI,SDT)VALUES('{kh.MAKH}', N'{kh.TENKH}', N'{kh.DIACHI}','{kh.SDT}')";
             return DBHelper.NonQuery(query, null);
         }
         public int Sua(KHACHHANG kh)
         {
             string query =
-                $"UPDATE KHACHHANG SET MASIM = '{kh.MASIM}', TENKH = N'{kh.TENKH}', DIACHI=N'{kh.DIACHI}',SDT='{kh.SDT}' WHERE MAKH='{kh.MAKH}'";
+                $"UPDATE KHACHHANG SET  TENKH = N'{kh.TENKH}', DIACHI=N'{kh.DIACHI}',SDT='{kh.SDT}' WHERE MAKH='{kh.MAKH}'";
             return DBHelper.NonQuery(query, null);
         }
         public int Xoa(string id)
@@ -38,7 +38,7 @@ namespace DAL
                 KHACHHANG khachhang = new KHACHHANG()
                 {
                     MAKH = row["MAKH"] as string,
-                    MASIM = row["MASIM"] as string,
+   
                     TENKH = row["TENKH"] as string,
                     DIACHI = row["DIACHI"] as string,
                     SDT = row["SDT"] as string
@@ -58,7 +58,7 @@ namespace DAL
                 khachhang = new KHACHHANG()
                 {
                     MAKH = row["MAKH"] as string,
-                    MASIM = row["MASIM"] as string,
+       
                     TENKH = row["TENKH"] as string,
                     DIACHI = row["DIACHI"] as string,
                     SDT = row["SDT"] as string
