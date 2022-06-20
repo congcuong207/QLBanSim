@@ -1,4 +1,5 @@
 ﻿using BUS;
+using DAL;
 using DTO;
 using System;
 using System.Collections;
@@ -17,10 +18,13 @@ namespace QLBanSim
     {
         string maHD;
         ArrayList cHITIETDONHANGs;
+        DAL_HoaDon dal = new DAL_HoaDon();
         public Form_ChiTietHoaDon(string MaHD)
         {
-           maHD = MaHD;
+
             InitializeComponent();
+            maHD = Form_TrangChu.mahd.Trim();
+
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -43,12 +47,12 @@ namespace QLBanSim
         }
         private void loadChiTietHoaDon()
         {
-            dgv_ctdh.DataSource = cHITIETDONHANGs;
+            dgv_ctdh.DataSource = dal.GetCHITIETDONHANGs(maHD);
             dgv_ctdh.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dgv_ctdh.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
         private void Form_ChiTietHoaDon_Load(object sender, EventArgs e)
-        {    
+        {
 
             loadChiTietHoaDon();
             cHITIETDONHANGs = new ArrayList();
@@ -56,23 +60,43 @@ namespace QLBanSim
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+
             CHITIETDONHANG ctdh = new CHITIETDONHANG
             {
-                MASIM = frmcthd_masim.Text.Trim()+ cHITIETDONHANGs.Count,
+                MAHD = maHD,
+
+                MASIM = frmcthd_masim.Text.Trim() ,
             };
-            cHITIETDONHANGs.Add(ctdh);
+            dal.AddCTDH(ctdh);
             loadChiTietHoaDon();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void dgv_ctdh_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            foreach (DataGridViewRow row in dgv_ctdh.SelectedRows)
+            {
+                frmcthd_masim.Text = row.Cells[0].ToString();
+            }
+        }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            dal.DeleteCTDH(mahd,masim);
+        }
+
+        string mahd, masim;
+        private void dgv_ctdh_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            foreach(DataGridViewRow row in dgv_ctdh.SelectedRows)
+            {
+                mahd = row.Cells[0].ToString().Trim();
+                masim = row.Cells[1].ToString().Trim();
+            }
         }
     }
 }

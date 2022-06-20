@@ -189,7 +189,7 @@ namespace QLBanSim
             dgv_nhanvien.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dgv_nhanvien.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
-       
+
         private void loadKhachHang()
         {
             dgv_khanghang.DataSource = bus_khachhang.LayDSKhachHang();
@@ -218,7 +218,7 @@ namespace QLBanSim
         }
         private void btSua_Click(object sender, EventArgs e)
         {
-            
+
             string message = "Bạn có chắc chắn muốn sửa?";
             string title = "Sửa sim";
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
@@ -317,7 +317,17 @@ namespace QLBanSim
 
         private void dataGridView4_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            foreach(DataGridViewRow row in dgv_hoadon.SelectedRows)
+            {
+                frmhd_madh.Text = row.Cells[0].Value.ToString();
+                frmhd_makh.Text = row.Cells[1].Value.ToString();
+                frmhd_manv.Text = row.Cells[2].Value.ToString();
+                if (row.Cells[3].Value != null)
+                {
+                    frmhd_ngay.Text = row.Cells[3].Value.ToString();
+                }
+                
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -454,11 +464,73 @@ namespace QLBanSim
         {
 
         }
-
+       public static string mahd;
         private void button9_Click(object sender, EventArgs e)
         {
-            Form_ChiTietHoaDon frm=new Form_ChiTietHoaDon(frmhd_madh.Text.Trim());
+            mahd = frmhd_madh.Text.Trim();
+            Form_ChiTietHoaDon frm = new Form_ChiTietHoaDon(frmhd_madh.Text.Trim());
             frm.Show();
+        }
+        //thêm hóa đơn
+        private void button14_Click(object sender, EventArgs e)
+        {
+            DONHANG dh = new DONHANG()
+            {
+                MADONHANG = frmhd_madh.Text.Trim(),
+               
+                MAKH = frmhd_makh.Text.Trim(),
+                MANV = frmhd_manv.Text.Trim(),
+                NGAYMUA = frmhd_ngay.Text.Trim(),
+            };
+            if (bus_hoadon.Them(dh) > 0)
+            {
+                MessageBox.Show("Thêm thành công");
+                loadHoaDon();
+            }
+            else
+            {
+                MessageBox.Show("Thêm không thành công");
+            }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            DONHANG dh = new DONHANG()
+            {
+                MADONHANG = frmhd_madh.Text.Trim(),
+                MAKH = frmhd_makh.Text.Trim(),
+                MANV = frmhd_manv.Text.Trim(),
+                NGAYMUA = frmhd_ngay.Text.Trim(),
+            };
+            if (bus_hoadon.Sua(dh) > 0)
+            {
+                MessageBox.Show("Sửa thành công");
+                loadHoaDon();
+            }
+            else
+            {
+                MessageBox.Show("Sửa không thành công");
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            DONHANG dh = new DONHANG()
+            {
+                MADONHANG = frmhd_madh.Text.Trim(),
+                MAKH = frmhd_makh.Text.Trim(),
+                MANV = frmhd_manv.Text.Trim(),
+                NGAYMUA = frmhd_ngay.Text.Trim(),
+            };
+            if (bus_hoadon.Xoa(dh.MADONHANG) > 0)
+            {
+                MessageBox.Show("Xóa thành công");
+                loadHoaDon();
+            }
+            else
+            {
+                MessageBox.Show("Xóa không thành công");
+            }
         }
     }
 }
