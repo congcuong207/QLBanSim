@@ -22,3 +22,15 @@ C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DTO\obj\Debug\DTO.csproj.CoreCompil
 C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DTO\obj\Debug\DTO.csproj.CopyComplete
 C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DTO\obj\Debug\DTO.dll
 C:\Users\CongCuong\Desktop\QLBanSim\QLBanSim\DTO\obj\Debug\DTO.pdb
+D:\Winform\QLBanSim\QLBanSim\DTO\bin\Debug\DTO.dll.config
+D:\Winform\QLBanSim\QLBanSim\DTO\bin\Debug\DTO.dll
+D:\Winform\QLBanSim\QLBanSim\DTO\bin\Debug\DTO.pdb
+D:\Winform\QLBanSim\QLBanSim\DTO\bin\Debug\EntityFramework.dll
+D:\Winform\QLBanSim\QLBanSim\DTO\bin\Debug\EntityFramework.SqlServer.dll
+D:\Winform\QLBanSim\QLBanSim\DTO\bin\Debug\EntityFramework.xml
+D:\Winform\QLBanSim\QLBanSim\DTO\bin\Debug\EntityFramework.SqlServer.xml
+D:\Winform\QLBanSim\QLBanSim\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Winform\QLBanSim\QLBanSim\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Winform\QLBanSim\QLBanSim\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\Winform\QLBanSim\QLBanSim\DTO\obj\Debug\DTO.dll
+D:\Winform\QLBanSim\QLBanSim\DTO\obj\Debug\DTO.pdb

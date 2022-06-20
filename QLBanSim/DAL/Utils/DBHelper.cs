@@ -10,7 +10,7 @@ namespace DAL.Utils
 {
     class DBHelper
     {
-        static string S_CONNECTION_STRING = @"data source=DESKTOP-TF6FPMR\SQLEXPRESS;initial catalog=QLBANSIM_DAOHIEN;integrated security=True;MultipleActiveResultSets=True";
+        static string S_CONNECTION_STRING = @"data source=DESKTOP-9DCUPJF\SQLEXPRESS;initial catalog=QLBANSIM_DAOHIEN;integrated security=True;MultipleActiveResultSets=True";
         public static DataTable Query(String consulta, SqlParameter[] parameters)
         {
             DataTable dt = new DataTable();

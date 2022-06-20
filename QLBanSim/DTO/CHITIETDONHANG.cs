@@ -11,6 +11,8 @@ namespace DTO
         public CHITIETDONHANG()
         {
         }
+        public string MAHD { get; set; }
         public string MASIM { get; set; }
+        public string SDT { get;set; }
     }
 }

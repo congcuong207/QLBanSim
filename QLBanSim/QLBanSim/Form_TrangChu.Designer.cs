@@ -37,6 +37,7 @@ namespace QLBanSim
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.dgv_nhanvien = new System.Windows.Forms.DataGridView();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.button13 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -57,6 +58,7 @@ namespace QLBanSim
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dgv_khanghang = new System.Windows.Forms.DataGridView();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button12 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -93,6 +95,7 @@ namespace QLBanSim
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dgv_sanpham = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.btXoa = new System.Windows.Forms.Button();
             this.btSua = new System.Windows.Forms.Button();
             this.btMoi = new System.Windows.Forms.Button();
@@ -109,9 +112,8 @@ namespace QLBanSim
             this.txtMaSP = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
             this.tabPage4.SuspendLayout();
             this.groupBox7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_nhanvien)).BeginInit();
@@ -141,10 +143,11 @@ namespace QLBanSim
             this.tabPage4.Controls.Add(this.groupBox7);
             this.tabPage4.Controls.Add(this.groupBox8);
             this.tabPage4.Controls.Add(this.groupBox9);
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1167, 614);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage4.Size = new System.Drawing.Size(873, 496);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Nhân Viên";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -155,18 +158,21 @@ namespace QLBanSim
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Red;
-            this.label12.Location = new System.Drawing.Point(451, 16);
+            this.label12.Location = new System.Drawing.Point(338, 13);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(306, 32);
+            this.label12.Size = new System.Drawing.Size(245, 25);
             this.label12.TabIndex = 11;
             this.label12.Text = "QUẢN LÝ NHÂN VIÊN";
             // 
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.dgv_nhanvien);
-            this.groupBox7.Location = new System.Drawing.Point(21, 236);
+            this.groupBox7.Location = new System.Drawing.Point(16, 192);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(1124, 378);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox7.Size = new System.Drawing.Size(843, 307);
             this.groupBox7.TabIndex = 10;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Danh Sách Khách Hàng";
@@ -174,11 +180,12 @@ namespace QLBanSim
             // dgv_nhanvien
             // 
             this.dgv_nhanvien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_nhanvien.Location = new System.Drawing.Point(22, 32);
+            this.dgv_nhanvien.Location = new System.Drawing.Point(16, 26);
+            this.dgv_nhanvien.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgv_nhanvien.Name = "dgv_nhanvien";
             this.dgv_nhanvien.RowHeadersWidth = 51;
             this.dgv_nhanvien.RowTemplate.Height = 24;
-            this.dgv_nhanvien.Size = new System.Drawing.Size(1080, 340);
+            this.dgv_nhanvien.Size = new System.Drawing.Size(810, 276);
             this.dgv_nhanvien.TabIndex = 0;
             this.dgv_nhanvien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_nhanvien_CellClick);
             // 
@@ -189,21 +196,34 @@ namespace QLBanSim
             this.groupBox8.Controls.Add(this.button6);
             this.groupBox8.Controls.Add(this.button7);
             this.groupBox8.Controls.Add(this.button8);
-            this.groupBox8.Location = new System.Drawing.Point(21, 157);
+            this.groupBox8.Location = new System.Drawing.Point(16, 128);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(1124, 73);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox8.Size = new System.Drawing.Size(843, 59);
             this.groupBox8.TabIndex = 9;
             this.groupBox8.TabStop = false;
+            // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(660, 18);
+            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(85, 30);
+            this.button13.TabIndex = 25;
+            this.button13.Text = "Tìm kiếm";
+            this.button13.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
             this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button5.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(695, 19);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button5.Location = new System.Drawing.Point(521, 15);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(87, 37);
+            this.button5.Size = new System.Drawing.Size(65, 30);
             this.button5.TabIndex = 22;
             this.button5.Text = "&Xóa";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -215,10 +235,10 @@ namespace QLBanSim
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button6.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(500, 22);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button6.Location = new System.Drawing.Point(375, 18);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(108, 37);
+            this.button6.Size = new System.Drawing.Size(81, 30);
             this.button6.TabIndex = 21;
             this.button6.Text = "&Sửa ";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -232,10 +252,10 @@ namespace QLBanSim
             this.button7.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(107, 22);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button7.Location = new System.Drawing.Point(80, 18);
+            this.button7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(111, 37);
+            this.button7.Size = new System.Drawing.Size(83, 30);
             this.button7.TabIndex = 19;
             this.button7.Text = "&Làm mới";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -248,10 +268,10 @@ namespace QLBanSim
             this.button8.AutoSize = true;
             this.button8.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(301, 22);
-            this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button8.Location = new System.Drawing.Point(226, 18);
+            this.button8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(111, 37);
+            this.button8.Size = new System.Drawing.Size(83, 30);
             this.button8.TabIndex = 20;
             this.button8.Text = "&Thêm ";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -270,9 +290,11 @@ namespace QLBanSim
             this.groupBox9.Controls.Add(this.label16);
             this.groupBox9.Controls.Add(this.frmnv_manv);
             this.groupBox9.Controls.Add(this.label17);
-            this.groupBox9.Location = new System.Drawing.Point(21, 51);
+            this.groupBox9.Location = new System.Drawing.Point(16, 41);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(1124, 100);
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox9.Size = new System.Drawing.Size(843, 81);
             this.groupBox9.TabIndex = 8;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Thông Tin Nhân Viên";
@@ -280,42 +302,47 @@ namespace QLBanSim
             // frmnv_diachi
             // 
             this.frmnv_diachi.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmnv_diachi.Location = new System.Drawing.Point(948, 65);
+            this.frmnv_diachi.Location = new System.Drawing.Point(711, 53);
+            this.frmnv_diachi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmnv_diachi.Name = "frmnv_diachi";
-            this.frmnv_diachi.Size = new System.Drawing.Size(130, 28);
+            this.frmnv_diachi.Size = new System.Drawing.Size(98, 24);
             this.frmnv_diachi.TabIndex = 22;
             // 
             // frmnv_gioitinh
             // 
             this.frmnv_gioitinh.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmnv_gioitinh.Location = new System.Drawing.Point(733, 65);
+            this.frmnv_gioitinh.Location = new System.Drawing.Point(550, 53);
+            this.frmnv_gioitinh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmnv_gioitinh.Name = "frmnv_gioitinh";
-            this.frmnv_gioitinh.Size = new System.Drawing.Size(106, 28);
+            this.frmnv_gioitinh.Size = new System.Drawing.Size(80, 24);
             this.frmnv_gioitinh.TabIndex = 21;
             // 
             // frmnv_namsinh
             // 
             this.frmnv_namsinh.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmnv_namsinh.Location = new System.Drawing.Point(529, 65);
+            this.frmnv_namsinh.Location = new System.Drawing.Point(397, 53);
+            this.frmnv_namsinh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmnv_namsinh.Name = "frmnv_namsinh";
-            this.frmnv_namsinh.Size = new System.Drawing.Size(130, 28);
+            this.frmnv_namsinh.Size = new System.Drawing.Size(98, 24);
             this.frmnv_namsinh.TabIndex = 20;
             // 
             // frmnv_tennv
             // 
             this.frmnv_tennv.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmnv_tennv.Location = new System.Drawing.Point(245, 65);
+            this.frmnv_tennv.Location = new System.Drawing.Point(184, 53);
+            this.frmnv_tennv.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmnv_tennv.Name = "frmnv_tennv";
-            this.frmnv_tennv.Size = new System.Drawing.Size(209, 28);
+            this.frmnv_tennv.Size = new System.Drawing.Size(158, 24);
             this.frmnv_tennv.TabIndex = 19;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(252, 41);
+            this.label13.Location = new System.Drawing.Point(189, 33);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(119, 20);
+            this.label13.Size = new System.Drawing.Size(98, 17);
             this.label13.TabIndex = 18;
             this.label13.Text = "Tên Nhân Viên";
             // 
@@ -323,9 +350,10 @@ namespace QLBanSim
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(738, 41);
+            this.label14.Location = new System.Drawing.Point(554, 33);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(80, 20);
+            this.label14.Size = new System.Drawing.Size(62, 17);
             this.label14.TabIndex = 17;
             this.label14.Text = "Giới Tính";
             // 
@@ -333,9 +361,10 @@ namespace QLBanSim
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(944, 41);
+            this.label15.Location = new System.Drawing.Point(708, 33);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(64, 20);
+            this.label15.Size = new System.Drawing.Size(53, 17);
             this.label15.TabIndex = 16;
             this.label15.Text = "Địa Chỉ";
             // 
@@ -343,27 +372,30 @@ namespace QLBanSim
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(536, 41);
+            this.label16.Location = new System.Drawing.Point(402, 33);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(81, 20);
+            this.label16.Size = new System.Drawing.Size(66, 17);
             this.label16.TabIndex = 15;
             this.label16.Text = "Năm Sinh";
             // 
             // frmnv_manv
             // 
             this.frmnv_manv.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmnv_manv.Location = new System.Drawing.Point(40, 65);
+            this.frmnv_manv.Location = new System.Drawing.Point(30, 53);
+            this.frmnv_manv.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmnv_manv.Name = "frmnv_manv";
-            this.frmnv_manv.Size = new System.Drawing.Size(120, 28);
+            this.frmnv_manv.Size = new System.Drawing.Size(91, 24);
             this.frmnv_manv.TabIndex = 14;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(36, 41);
+            this.label17.Location = new System.Drawing.Point(27, 33);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(114, 20);
+            this.label17.Size = new System.Drawing.Size(95, 17);
             this.label17.TabIndex = 13;
             this.label17.Text = "Mã Nhân Viên";
             // 
@@ -373,10 +405,11 @@ namespace QLBanSim
             this.tabPage3.Controls.Add(this.groupBox4);
             this.tabPage3.Controls.Add(this.groupBox5);
             this.tabPage3.Controls.Add(this.groupBox6);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1167, 614);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Size = new System.Drawing.Size(873, 496);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Khách Hàng ";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -387,18 +420,21 @@ namespace QLBanSim
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(445, 16);
+            this.label4.Location = new System.Drawing.Point(334, 13);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(347, 32);
+            this.label4.Size = new System.Drawing.Size(275, 25);
             this.label4.TabIndex = 7;
             this.label4.Text = "QUẢN LÝ KHÁCH HÀNG";
             // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.dgv_khanghang);
-            this.groupBox4.Location = new System.Drawing.Point(21, 236);
+            this.groupBox4.Location = new System.Drawing.Point(16, 192);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(1119, 372);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Size = new System.Drawing.Size(839, 302);
             this.groupBox4.TabIndex = 6;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Danh Sách Khách Hàng";
@@ -406,11 +442,12 @@ namespace QLBanSim
             // dgv_khanghang
             // 
             this.dgv_khanghang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_khanghang.Location = new System.Drawing.Point(22, 32);
+            this.dgv_khanghang.Location = new System.Drawing.Point(16, 26);
+            this.dgv_khanghang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgv_khanghang.Name = "dgv_khanghang";
             this.dgv_khanghang.RowHeadersWidth = 51;
             this.dgv_khanghang.RowTemplate.Height = 24;
-            this.dgv_khanghang.Size = new System.Drawing.Size(1076, 334);
+            this.dgv_khanghang.Size = new System.Drawing.Size(807, 271);
             this.dgv_khanghang.TabIndex = 0;
             this.dgv_khanghang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_khanghang_CellClick);
             // 
@@ -421,21 +458,35 @@ namespace QLBanSim
             this.groupBox5.Controls.Add(this.button2);
             this.groupBox5.Controls.Add(this.button3);
             this.groupBox5.Controls.Add(this.button4);
-            this.groupBox5.Location = new System.Drawing.Point(21, 157);
+            this.groupBox5.Location = new System.Drawing.Point(16, 128);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(1119, 73);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Size = new System.Drawing.Size(839, 59);
             this.groupBox5.TabIndex = 5;
             this.groupBox5.TabStop = false;
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(684, 18);
+            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(85, 30);
+            this.button12.TabIndex = 24;
+            this.button12.Text = "Tìm kiếm";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(734, 22);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(550, 18);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 37);
+            this.button1.Size = new System.Drawing.Size(65, 30);
             this.button1.TabIndex = 22;
             this.button1.Text = "&Xóa";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -447,10 +498,10 @@ namespace QLBanSim
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(500, 22);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Location = new System.Drawing.Point(375, 18);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 37);
+            this.button2.Size = new System.Drawing.Size(81, 30);
             this.button2.TabIndex = 21;
             this.button2.Text = "&Sửa ";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -464,10 +515,10 @@ namespace QLBanSim
             this.button3.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(75, 22);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button3.Location = new System.Drawing.Point(56, 18);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 37);
+            this.button3.Size = new System.Drawing.Size(83, 30);
             this.button3.TabIndex = 19;
             this.button3.Text = "&Làm mới";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -480,10 +531,10 @@ namespace QLBanSim
             this.button4.AutoSize = true;
             this.button4.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(277, 22);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button4.Location = new System.Drawing.Point(208, 18);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(111, 37);
+            this.button4.Size = new System.Drawing.Size(83, 30);
             this.button4.TabIndex = 20;
             this.button4.Text = "&Thêm ";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -502,9 +553,11 @@ namespace QLBanSim
             this.groupBox6.Controls.Add(this.label10);
             this.groupBox6.Controls.Add(this.frmkh_makh);
             this.groupBox6.Controls.Add(this.label11);
-            this.groupBox6.Location = new System.Drawing.Point(21, 51);
+            this.groupBox6.Location = new System.Drawing.Point(16, 41);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(1119, 100);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox6.Size = new System.Drawing.Size(839, 81);
             this.groupBox6.TabIndex = 4;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Thông Tin Khách Hàng";
@@ -512,42 +565,47 @@ namespace QLBanSim
             // frmkh_sdt
             // 
             this.frmkh_sdt.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmkh_sdt.Location = new System.Drawing.Point(958, 65);
+            this.frmkh_sdt.Location = new System.Drawing.Point(718, 53);
+            this.frmkh_sdt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmkh_sdt.Name = "frmkh_sdt";
-            this.frmkh_sdt.Size = new System.Drawing.Size(130, 28);
+            this.frmkh_sdt.Size = new System.Drawing.Size(98, 24);
             this.frmkh_sdt.TabIndex = 22;
             // 
             // frmkh_diachi
             // 
             this.frmkh_diachi.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmkh_diachi.Location = new System.Drawing.Point(734, 65);
+            this.frmkh_diachi.Location = new System.Drawing.Point(550, 53);
+            this.frmkh_diachi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmkh_diachi.Name = "frmkh_diachi";
-            this.frmkh_diachi.Size = new System.Drawing.Size(157, 28);
+            this.frmkh_diachi.Size = new System.Drawing.Size(119, 24);
             this.frmkh_diachi.TabIndex = 21;
             // 
             // frmkh_masim
             // 
             this.frmkh_masim.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmkh_masim.Location = new System.Drawing.Point(219, 65);
+            this.frmkh_masim.Location = new System.Drawing.Point(164, 53);
+            this.frmkh_masim.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmkh_masim.Name = "frmkh_masim";
-            this.frmkh_masim.Size = new System.Drawing.Size(130, 28);
+            this.frmkh_masim.Size = new System.Drawing.Size(98, 24);
             this.frmkh_masim.TabIndex = 20;
             // 
             // frmkh_tenkh
             // 
             this.frmkh_tenkh.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmkh_tenkh.Location = new System.Drawing.Point(430, 65);
+            this.frmkh_tenkh.Location = new System.Drawing.Point(322, 53);
+            this.frmkh_tenkh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmkh_tenkh.Name = "frmkh_tenkh";
-            this.frmkh_tenkh.Size = new System.Drawing.Size(237, 28);
+            this.frmkh_tenkh.Size = new System.Drawing.Size(179, 24);
             this.frmkh_tenkh.TabIndex = 19;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(426, 41);
+            this.label7.Location = new System.Drawing.Point(320, 33);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(133, 20);
+            this.label7.Size = new System.Drawing.Size(110, 17);
             this.label7.TabIndex = 18;
             this.label7.Text = "Tên Khách Hàng";
             // 
@@ -555,9 +613,10 @@ namespace QLBanSim
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(736, 42);
+            this.label8.Location = new System.Drawing.Point(552, 34);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(64, 20);
+            this.label8.Size = new System.Drawing.Size(53, 17);
             this.label8.TabIndex = 17;
             this.label8.Text = "Địa Chỉ";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -566,9 +625,10 @@ namespace QLBanSim
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(954, 41);
+            this.label9.Location = new System.Drawing.Point(716, 33);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(114, 20);
+            this.label9.Size = new System.Drawing.Size(92, 17);
             this.label9.TabIndex = 16;
             this.label9.Text = "Số Điện Thoại";
             // 
@@ -576,27 +636,30 @@ namespace QLBanSim
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(215, 41);
+            this.label10.Location = new System.Drawing.Point(161, 33);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 20);
+            this.label10.Size = new System.Drawing.Size(54, 17);
             this.label10.TabIndex = 15;
             this.label10.Text = "Mã Sim";
             // 
             // frmkh_makh
             // 
             this.frmkh_makh.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmkh_makh.Location = new System.Drawing.Point(40, 65);
+            this.frmkh_makh.Location = new System.Drawing.Point(30, 53);
+            this.frmkh_makh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmkh_makh.Name = "frmkh_makh";
-            this.frmkh_makh.Size = new System.Drawing.Size(130, 28);
+            this.frmkh_makh.Size = new System.Drawing.Size(98, 24);
             this.frmkh_makh.TabIndex = 14;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(36, 41);
+            this.label11.Location = new System.Drawing.Point(27, 33);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(128, 20);
+            this.label11.Size = new System.Drawing.Size(107, 17);
             this.label11.TabIndex = 13;
             this.label11.Text = "Mã Khách Hàng";
             // 
@@ -606,10 +669,11 @@ namespace QLBanSim
             this.tabPage2.Controls.Add(this.groupBox11);
             this.tabPage2.Controls.Add(this.label18);
             this.tabPage2.Controls.Add(this.groupBox10);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1167, 614);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Size = new System.Drawing.Size(873, 496);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Hóa Đơn";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -618,9 +682,11 @@ namespace QLBanSim
             // groupBox12
             // 
             this.groupBox12.Controls.Add(this.dgv_hoadon);
-            this.groupBox12.Location = new System.Drawing.Point(24, 231);
+            this.groupBox12.Location = new System.Drawing.Point(18, 188);
+            this.groupBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(1119, 383);
+            this.groupBox12.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox12.Size = new System.Drawing.Size(839, 311);
             this.groupBox12.TabIndex = 1;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Danh Sách Hóa Đơn ";
@@ -629,40 +695,48 @@ namespace QLBanSim
             // dgv_hoadon
             // 
             this.dgv_hoadon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_hoadon.Location = new System.Drawing.Point(28, 35);
+            this.dgv_hoadon.Location = new System.Drawing.Point(21, 28);
+            this.dgv_hoadon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgv_hoadon.Name = "dgv_hoadon";
             this.dgv_hoadon.RowHeadersWidth = 51;
             this.dgv_hoadon.RowTemplate.Height = 24;
-            this.dgv_hoadon.Size = new System.Drawing.Size(1069, 336);
+            this.dgv_hoadon.Size = new System.Drawing.Size(802, 273);
             this.dgv_hoadon.TabIndex = 0;
             this.dgv_hoadon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellClick);
             // 
             // groupBox11
             // 
+            this.groupBox11.Controls.Add(this.button15);
+            this.groupBox11.Controls.Add(this.button14);
             this.groupBox11.Controls.Add(this.button10);
             this.groupBox11.Controls.Add(this.button9);
-            this.groupBox11.Location = new System.Drawing.Point(24, 163);
+            this.groupBox11.Location = new System.Drawing.Point(18, 132);
+            this.groupBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(1119, 62);
+            this.groupBox11.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox11.Size = new System.Drawing.Size(839, 50);
             this.groupBox11.TabIndex = 9;
             this.groupBox11.TabStop = false;
             // 
             // button10
             // 
             this.button10.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(705, 21);
+            this.button10.Location = new System.Drawing.Point(617, 17);
+            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(234, 30);
+            this.button10.Size = new System.Drawing.Size(176, 24);
             this.button10.TabIndex = 1;
             this.button10.Text = "Xóa Hóa Đơn";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(219, 21);
+            this.button9.Location = new System.Drawing.Point(21, 17);
+            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(234, 30);
+            this.button9.Size = new System.Drawing.Size(176, 24);
             this.button9.TabIndex = 0;
             this.button9.Text = "Chi Tiết Hóa Đơn";
             this.button9.UseVisualStyleBackColor = true;
@@ -673,9 +747,10 @@ namespace QLBanSim
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.Red;
-            this.label18.Location = new System.Drawing.Point(493, 20);
+            this.label18.Location = new System.Drawing.Point(370, 16);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(145, 32);
+            this.label18.Size = new System.Drawing.Size(115, 25);
             this.label18.TabIndex = 8;
             this.label18.Text = "HÓA ĐƠN";
             this.label18.Click += new System.EventHandler(this.label18_Click);
@@ -690,9 +765,11 @@ namespace QLBanSim
             this.groupBox10.Controls.Add(this.label22);
             this.groupBox10.Controls.Add(this.frmhd_madh);
             this.groupBox10.Controls.Add(this.label23);
-            this.groupBox10.Location = new System.Drawing.Point(24, 64);
+            this.groupBox10.Location = new System.Drawing.Point(18, 52);
+            this.groupBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(1119, 93);
+            this.groupBox10.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox10.Size = new System.Drawing.Size(839, 76);
             this.groupBox10.TabIndex = 0;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Thông Tin Hóa Đơn ";
@@ -700,34 +777,38 @@ namespace QLBanSim
             // frmhd_ngay
             // 
             this.frmhd_ngay.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmhd_ngay.Location = new System.Drawing.Point(927, 44);
+            this.frmhd_ngay.Location = new System.Drawing.Point(695, 36);
+            this.frmhd_ngay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmhd_ngay.Name = "frmhd_ngay";
-            this.frmhd_ngay.Size = new System.Drawing.Size(130, 28);
+            this.frmhd_ngay.Size = new System.Drawing.Size(98, 24);
             this.frmhd_ngay.TabIndex = 32;
             // 
             // frmhd_manv
             // 
             this.frmhd_manv.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmhd_manv.Location = new System.Drawing.Point(671, 44);
+            this.frmhd_manv.Location = new System.Drawing.Point(503, 36);
+            this.frmhd_manv.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmhd_manv.Name = "frmhd_manv";
-            this.frmhd_manv.Size = new System.Drawing.Size(130, 28);
+            this.frmhd_manv.Size = new System.Drawing.Size(98, 24);
             this.frmhd_manv.TabIndex = 30;
             // 
             // frmhd_makh
             // 
             this.frmhd_makh.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmhd_makh.Location = new System.Drawing.Point(323, 44);
+            this.frmhd_makh.Location = new System.Drawing.Point(242, 36);
+            this.frmhd_makh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmhd_makh.Name = "frmhd_makh";
-            this.frmhd_makh.Size = new System.Drawing.Size(130, 28);
+            this.frmhd_makh.Size = new System.Drawing.Size(98, 24);
             this.frmhd_makh.TabIndex = 29;
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(319, 20);
+            this.label19.Location = new System.Drawing.Point(239, 16);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(128, 20);
+            this.label19.Size = new System.Drawing.Size(107, 17);
             this.label19.TabIndex = 28;
             this.label19.Text = "Mã Khách Hàng";
             // 
@@ -735,9 +816,10 @@ namespace QLBanSim
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(923, 20);
+            this.label21.Location = new System.Drawing.Point(692, 16);
+            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(85, 20);
+            this.label21.Size = new System.Drawing.Size(71, 17);
             this.label21.TabIndex = 26;
             this.label21.Text = "Ngày Mua";
             // 
@@ -745,27 +827,30 @@ namespace QLBanSim
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(667, 20);
+            this.label22.Location = new System.Drawing.Point(500, 16);
+            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(114, 20);
+            this.label22.Size = new System.Drawing.Size(95, 17);
             this.label22.TabIndex = 25;
             this.label22.Text = "Mã Nhân Viên";
             // 
             // frmhd_madh
             // 
             this.frmhd_madh.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frmhd_madh.Location = new System.Drawing.Point(28, 44);
+            this.frmhd_madh.Location = new System.Drawing.Point(21, 36);
+            this.frmhd_madh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frmhd_madh.Name = "frmhd_madh";
-            this.frmhd_madh.Size = new System.Drawing.Size(130, 28);
+            this.frmhd_madh.Size = new System.Drawing.Size(98, 24);
             this.frmhd_madh.TabIndex = 24;
             // 
             // label23
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(24, 20);
+            this.label23.Location = new System.Drawing.Point(18, 16);
+            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(113, 20);
+            this.label23.Size = new System.Drawing.Size(94, 17);
             this.label23.TabIndex = 23;
             this.label23.Text = "Mã Đơn Hàng";
             // 
@@ -775,10 +860,11 @@ namespace QLBanSim
             this.tabPage1.Controls.Add(this.groupBox3);
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1167, 614);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Size = new System.Drawing.Size(873, 496);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Bán Hàng";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -789,9 +875,10 @@ namespace QLBanSim
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(458, 20);
+            this.label1.Location = new System.Drawing.Point(344, 16);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(298, 32);
+            this.label1.Size = new System.Drawing.Size(234, 25);
             this.label1.TabIndex = 3;
             this.label1.Text = "QUẢN LÝ SẢN PHẨM";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
@@ -799,9 +886,11 @@ namespace QLBanSim
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.dgv_sanpham);
-            this.groupBox3.Location = new System.Drawing.Point(34, 240);
+            this.groupBox3.Location = new System.Drawing.Point(26, 195);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1101, 362);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Size = new System.Drawing.Size(826, 294);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Danh Sách Sản Phẩm";
@@ -810,11 +899,12 @@ namespace QLBanSim
             // dgv_sanpham
             // 
             this.dgv_sanpham.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_sanpham.Location = new System.Drawing.Point(22, 32);
+            this.dgv_sanpham.Location = new System.Drawing.Point(16, 26);
+            this.dgv_sanpham.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgv_sanpham.Name = "dgv_sanpham";
             this.dgv_sanpham.RowHeadersWidth = 51;
             this.dgv_sanpham.RowTemplate.Height = 24;
-            this.dgv_sanpham.Size = new System.Drawing.Size(1054, 324);
+            this.dgv_sanpham.Size = new System.Drawing.Size(790, 263);
             this.dgv_sanpham.TabIndex = 0;
             this.dgv_sanpham.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_sanpham_CellClick);
             this.dgv_sanpham.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -826,22 +916,35 @@ namespace QLBanSim
             this.groupBox2.Controls.Add(this.btSua);
             this.groupBox2.Controls.Add(this.btMoi);
             this.groupBox2.Controls.Add(this.btThem);
-            this.groupBox2.Location = new System.Drawing.Point(34, 161);
+            this.groupBox2.Location = new System.Drawing.Point(26, 131);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1101, 73);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(826, 59);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(644, 16);
+            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(85, 30);
+            this.button11.TabIndex = 23;
+            this.button11.Text = "Tìm kiếm";
+            this.button11.UseVisualStyleBackColor = true;
             // 
             // btXoa
             // 
             this.btXoa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btXoa.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btXoa.Location = new System.Drawing.Point(670, 19);
-            this.btXoa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btXoa.Location = new System.Drawing.Point(502, 15);
+            this.btXoa.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btXoa.Name = "btXoa";
-            this.btXoa.Size = new System.Drawing.Size(87, 37);
+            this.btXoa.Size = new System.Drawing.Size(65, 30);
             this.btXoa.TabIndex = 22;
             this.btXoa.Text = "&Xóa";
             this.btXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -853,10 +956,10 @@ namespace QLBanSim
             this.btSua.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btSua.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btSua.Location = new System.Drawing.Point(453, 23);
-            this.btSua.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btSua.Location = new System.Drawing.Point(340, 19);
+            this.btSua.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btSua.Name = "btSua";
-            this.btSua.Size = new System.Drawing.Size(108, 37);
+            this.btSua.Size = new System.Drawing.Size(81, 30);
             this.btSua.TabIndex = 21;
             this.btSua.Text = "&Sửa ";
             this.btSua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -870,10 +973,10 @@ namespace QLBanSim
             this.btMoi.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btMoi.Image = ((System.Drawing.Image)(resources.GetObject("btMoi.Image")));
             this.btMoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btMoi.Location = new System.Drawing.Point(59, 19);
-            this.btMoi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btMoi.Location = new System.Drawing.Point(44, 15);
+            this.btMoi.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btMoi.Name = "btMoi";
-            this.btMoi.Size = new System.Drawing.Size(111, 37);
+            this.btMoi.Size = new System.Drawing.Size(83, 30);
             this.btMoi.TabIndex = 19;
             this.btMoi.Text = "&Làm mới";
             this.btMoi.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -886,10 +989,10 @@ namespace QLBanSim
             this.btThem.AutoSize = true;
             this.btThem.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btThem.Location = new System.Drawing.Point(250, 23);
-            this.btThem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btThem.Location = new System.Drawing.Point(188, 19);
+            this.btThem.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btThem.Name = "btThem";
-            this.btThem.Size = new System.Drawing.Size(111, 37);
+            this.btThem.Size = new System.Drawing.Size(83, 30);
             this.btThem.TabIndex = 20;
             this.btThem.Text = "&Thêm ";
             this.btThem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -908,9 +1011,11 @@ namespace QLBanSim
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtMaSP);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(34, 55);
+            this.groupBox1.Location = new System.Drawing.Point(26, 45);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1101, 100);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(826, 81);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Sản Phẩm";
@@ -919,36 +1024,40 @@ namespace QLBanSim
             // txtSDT
             // 
             this.txtSDT.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSDT.Location = new System.Drawing.Point(946, 65);
+            this.txtSDT.Location = new System.Drawing.Point(710, 53);
+            this.txtSDT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(130, 28);
+            this.txtSDT.Size = new System.Drawing.Size(98, 24);
             this.txtSDT.TabIndex = 22;
             this.txtSDT.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // txtGiaBan
             // 
             this.txtGiaBan.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGiaBan.Location = new System.Drawing.Point(738, 66);
+            this.txtGiaBan.Location = new System.Drawing.Point(554, 54);
+            this.txtGiaBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtGiaBan.Name = "txtGiaBan";
-            this.txtGiaBan.Size = new System.Drawing.Size(114, 28);
+            this.txtGiaBan.Size = new System.Drawing.Size(86, 24);
             this.txtGiaBan.TabIndex = 21;
             this.txtGiaBan.TextChanged += new System.EventHandler(this.txtGiaBan_TextChanged);
             // 
             // txtMaLoai
             // 
             this.txtMaLoai.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaLoai.Location = new System.Drawing.Point(470, 65);
+            this.txtMaLoai.Location = new System.Drawing.Point(352, 53);
+            this.txtMaLoai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMaLoai.Name = "txtMaLoai";
-            this.txtMaLoai.Size = new System.Drawing.Size(179, 28);
+            this.txtMaLoai.Size = new System.Drawing.Size(135, 24);
             this.txtMaLoai.TabIndex = 20;
             this.txtMaLoai.TextChanged += new System.EventHandler(this.txtSoLuong_TextChanged);
             // 
             // txtTenNhaMang
             // 
             this.txtTenNhaMang.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenNhaMang.Location = new System.Drawing.Point(250, 66);
+            this.txtTenNhaMang.Location = new System.Drawing.Point(188, 54);
+            this.txtTenNhaMang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtTenNhaMang.Name = "txtTenNhaMang";
-            this.txtTenNhaMang.Size = new System.Drawing.Size(125, 28);
+            this.txtTenNhaMang.Size = new System.Drawing.Size(95, 24);
             this.txtTenNhaMang.TabIndex = 19;
             this.txtTenNhaMang.TextChanged += new System.EventHandler(this.txtTenSP_TextChanged);
             // 
@@ -956,9 +1065,10 @@ namespace QLBanSim
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(477, 41);
+            this.label6.Location = new System.Drawing.Point(358, 33);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(113, 20);
+            this.label6.Size = new System.Drawing.Size(92, 17);
             this.label6.TabIndex = 18;
             this.label6.Text = "Tên nhà mạng";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -967,9 +1077,10 @@ namespace QLBanSim
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(734, 42);
+            this.label5.Location = new System.Drawing.Point(550, 34);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 20);
+            this.label5.Size = new System.Drawing.Size(56, 17);
             this.label5.TabIndex = 17;
             this.label5.Text = "Giá Bán";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -978,9 +1089,10 @@ namespace QLBanSim
             // 
             this.txtXuatXu.AutoSize = true;
             this.txtXuatXu.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtXuatXu.Location = new System.Drawing.Point(942, 41);
+            this.txtXuatXu.Location = new System.Drawing.Point(706, 33);
+            this.txtXuatXu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtXuatXu.Name = "txtXuatXu";
-            this.txtXuatXu.Size = new System.Drawing.Size(44, 20);
+            this.txtXuatXu.Size = new System.Drawing.Size(36, 17);
             this.txtXuatXu.TabIndex = 16;
             this.txtXuatXu.Text = "SĐT";
             this.txtXuatXu.Click += new System.EventHandler(this.txtXuatXu_Click);
@@ -989,9 +1101,10 @@ namespace QLBanSim
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(259, 41);
+            this.label3.Location = new System.Drawing.Point(194, 33);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 20);
+            this.label3.Size = new System.Drawing.Size(52, 17);
             this.label3.TabIndex = 15;
             this.label3.Text = "Mã loại";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -999,9 +1112,10 @@ namespace QLBanSim
             // txtMaSP
             // 
             this.txtMaSP.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaSP.Location = new System.Drawing.Point(40, 65);
+            this.txtMaSP.Location = new System.Drawing.Point(30, 53);
+            this.txtMaSP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMaSP.Name = "txtMaSP";
-            this.txtMaSP.Size = new System.Drawing.Size(130, 28);
+            this.txtMaSP.Size = new System.Drawing.Size(98, 24);
             this.txtMaSP.TabIndex = 14;
             this.txtMaSP.TextChanged += new System.EventHandler(this.txtMaSP_TextChanged);
             // 
@@ -1009,9 +1123,10 @@ namespace QLBanSim
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(36, 41);
+            this.label2.Location = new System.Drawing.Point(27, 33);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 20);
+            this.label2.Size = new System.Drawing.Size(92, 17);
             this.label2.TabIndex = 13;
             this.label2.Text = "Mã Sản Phẩm";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -1022,51 +1137,46 @@ namespace QLBanSim
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Location = new System.Drawing.Point(9, 10);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1175, 643);
+            this.tabControl1.Size = new System.Drawing.Size(881, 522);
             this.tabControl1.TabIndex = 0;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
-            // button11
+            // button14
             // 
-            this.button11.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(859, 20);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(113, 37);
-            this.button11.TabIndex = 23;
-            this.button11.Text = "Tìm kiếm";
-            this.button11.UseVisualStyleBackColor = true;
+            this.button14.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Location = new System.Drawing.Point(212, 17);
+            this.button14.Margin = new System.Windows.Forms.Padding(2);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(176, 24);
+            this.button14.TabIndex = 2;
+            this.button14.Text = "Thêm hóa đơn";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
-            // button12
+            // button15
             // 
-            this.button12.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(912, 22);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(113, 37);
-            this.button12.TabIndex = 24;
-            this.button12.Text = "Tìm kiếm";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // button13
-            // 
-            this.button13.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(880, 22);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(113, 37);
-            this.button13.TabIndex = 25;
-            this.button13.Text = "Tìm kiếm";
-            this.button13.UseVisualStyleBackColor = true;
+            this.button15.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.Location = new System.Drawing.Point(409, 17);
+            this.button15.Margin = new System.Windows.Forms.Padding(2);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(176, 24);
+            this.button15.TabIndex = 3;
+            this.button15.Text = "Sửa hóa đơn";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // Form_TrangChu
             // 
             this.AccessibleName = "";
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1199, 651);
+            this.ClientSize = new System.Drawing.Size(899, 529);
             this.Controls.Add(this.tabControl1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form_TrangChu";
             this.Text = "Form_TrangChu";
             this.Load += new System.EventHandler(this.Form_TrangChu_Load);
@@ -1189,5 +1299,7 @@ namespace QLBanSim
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button14;
     }
 }
